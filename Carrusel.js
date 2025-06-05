@@ -210,7 +210,7 @@ class HexCarousel extends HTMLElement {
       { img: './media/Tahu-Wallpaper.jpg', title: 'TALE OF THE TOA', subtitle: 'Chronicles #1', author: 'C.A. Hapka',bgColor: '#5D110E', textColor: '#FFFFFF' },
       { img: './media/Nuparu-01-Wallpaper.jpg', title: 'POWER PLAY', subtitle: 'Legends #3',author: 'Greg Farshtey', bgColor: '#323435', textColor: '#FFFFFF' },
       { img: './media/timetrap.png', title: 'TIME TRAP', subtitle: 'Adventures #10',author: 'Greg Farshtey', bgColor: '#5D110E', textColor: '#FFFFFF' },
-      { img: './media/Zaktan.png', title: 'LEGACY OF EVIL', subtitle: 'Legends #4',author: 'Greg Farshtey', bgColor: '#00381A', textColor: '#FFFFFF' },
+      { img: './media/zaktan.png', title: 'LEGACY OF EVIL', subtitle: 'Legends #4',author: 'Greg Farshtey', bgColor: '#00381A', textColor: '#FFFFFF' },
       { img: './media/swampofsecrets.jpg', title: 'SWAMP OF SECRETS', subtitle: 'Legends #10',author: 'Greg Farshtey', bgColor: '#D0D9E4', textColor: '#000000'},
     ];
 

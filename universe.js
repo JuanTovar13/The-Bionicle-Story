@@ -4,7 +4,7 @@ class SquareCarousel extends HTMLElement {
     this.attachShadow({ mode: 'open' });
     this.current = 0;
 
-    fetch('./universe.json')
+    fetch('./Universe.json')
       .then(res => res.json())
       .then(data => {
         this.data = data;
