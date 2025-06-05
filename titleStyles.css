@@ -1,0 +1,32 @@
+@font-face {
+    font-family: 'Goudy Trajan';
+    src: 
+    url('./Fonts/GoudyTrajan-Regular-trial.otf') format('truetype');
+  }
+.title-container {
+    width: 100%;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .main-title {
+    font-family: 'Goudy Trajan', serif;
+    font-weight: normal; /* Asegúrate de tenerla cargada */
+    margin-top: 200px;
+    margin-bottom: 200px;
+    font-size: 64px;
+    letter-spacing: 10%;
+    background: linear-gradient(
+      to bottom,
+      rgba(255, 255, 255, 1) 25%,
+      rgba(161, 92, 26, 1) 60%,
+      rgba(224, 181, 84, 1) 82%
+    );
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+  }
+  

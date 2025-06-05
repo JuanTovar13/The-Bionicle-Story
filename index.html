@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>The Bionicle Story</title>
+  <link rel="stylesheet" href="./navbarStyles.css"/>
+  <link rel="stylesheet" href="./titleStyles.css"/>
+  <link rel="stylesheet" href="./sand.css"/>
+  <link rel="stylesheet" href="./carruselStyle.css"/>
+  <link rel="stylesheet" href="./Herogrid.css"/>
+  <link rel="stylesheet" href="./scroll.css"/>
+  <link rel="stylesheet" href="./footerstyle.css"/>
+  <style>
+    @font-face {
+      font-family: 'Gill Sans MT';
+      src: 
+      url('./Fonts/gillsansmt.ttf') format('truetype');
+    }
+    @font-face {
+      font-family: 'Goudy Trajan';
+      src: 
+      url('./Fonts/GoudyTrajan-Regular-trial.otf') format('truetype');
+    }
+    @font-face {
+      font-family: 'TradeMaker';
+      src: 
+      url('./Fonts/TradeMarker-Light.otf') format('truetype');
+    }
+    body {
+    margin: 0;
+    background-color: #000;
+    background-image: url('./media/SAND\ BG.png');
+;
+    background-size: 100%;
+    
+    background-repeat: repeat;
+    font-family: 'Gill Sans MT', sans-serif;
+    }
+    strong{
+      font-weight: bold;
+    }
+    #banner {
+      box-shadow:
+    inset 0px -9px 14.4px rgba(0, 0, 0, 0.29),
+    6px 400px 78px rgba(0, 0, 0, 0.89);
+    }
+  </style>
+</head>
+<body>
+  <!-- navbar -->
+  <section class="navbar">
+    <div class="navbar-container">
+      <img src="./media/Bionicle_roundal.png" 
+           alt="BB Logo" class="logo" />
+      <div class="nav-divider"></div>
+      <button class="nav-button">Story Overview</button>
+      <div class="nav-divider"></div>
+      <button class="nav-button">Latest Story</button>
+      <div class="nav-divider"></div>
+      <button class="nav-button">Characters</button>
+      <div class="nav-divider"></div>
+      <button class="nav-button">The Bionicle Universe</button>
+    </div>
+  </section>
+<!-- banner -->
+  <lottie-player id="banner" src="./Bionicle-landing-page.json" style="width:100%;"></lottie-player>
+<!-- sand -->
+  <lottie-player id="sand" src="./Sand-prop.json" style="width:100%;"></lottie-player>
+<!-- title -->
+  <section class="title-container">
+    <h1 class="main-title">POPULAR BOOKS</h1>
+  </section>
+  <!-- Libros -->
+<hex-carousel></hex-carousel>
+<!-- title -->
+<section class="title-container">
+    <h1 class="main-title">MAIN HEROES</h1>
+  </section>
+<!-- Sección de Heroes -->
+<section class="grid-section">
+  <div class="grid-container" id="infoGrid"></div>
+</section>
+<!-- title -->
+<section class="title-container">
+    <h1 class="main-title">STORY</h1>
+  </section>
+  <!-- seccion historia -->
+<section class="scroll-section">
+  <div class="scroll-edge top"></div>
+  <div class="scroll-container">
+    <div class="scroll-body">
+    <h2 class="scroll-title">The Legend Begins</h2>
+    <div class="scroll-content">
+    <p class="scroll-text">
+      <strong>In the time before time...</strong> 
+      <br>
+<br>
+The Great Spirit descended from the heavens, carrying we, the ones called the Matoran, to this island paradise. We were separate and without purpose, so the Great Spirit blessed us with the three virtues: unity, duty, and destiny. We embraced these gifts and, in gratitude, we named our island home Mata Nui, after the Great Spirit himself.<br>
+<br>
+But our happiness was not to last. Mata Nui's brother, Makuta, was jealous of these honors and betrayed him. Makuta cast a spell over Mata Nui, who fell into a deep slumber. Makuta's power dominated the land, as fields withered away, sunlight grew cold, and ancient values were forgotten.<br>
+<br>
+Still, all hope was not lost. Legends told of six mighty heroes, the Toa, who would arrive to save Mata Nui. Time would reveal that these were not simply myths - for the Toa did appear on the shores of the island. They arrive with no memory, no knowledge of one another - but they pledged to defend Mata Nui and its people against the darkness. Tahu, Toa of Fire. Onua, Toa of Earth. Gali, Toa of Water. Lewa, Toa of Air. Pohatu, Toa of Stone. And Kopaka, Toa of Ice. Great warriors with great power, drawn from the very elements themselves. Together, they were six heroes with one destiny: to defeat Makuta and save Mata Nui.<br>
+<br>
+This is their story.
+    </p>
+    </div>
+    <div class="scroll-button-container">
+    <button class="scroll-btn">
+        <span>Read More</span>
+            <img src="./media/arrow 2_Mesa de trabajo 1.png" alt="Icono" class="scroll-icon">
+        </button>
+    </div>
+    </div>
+    </div>
+  </div>
+  <div class="scroll-edge bottom"></div>
+</section>
+<!-- title -->
+<section class="title-container">
+    <h1 class="main-title">UNIVERSE</h1>
+  </section>
+<!-- Sección de Universe -->
+<square-carousel></square-carousel>
+
+<section class="footer-container">
+        <div class="social-links">
+          <a href="https://discord.gg/dZP876E" target="_blank" class="Footer-nav-item">Discord</a>
+          <a href="https://www.instagram.com/project.rustbound/" target="_blank" class="Footer-nav-item">Instagram</a>
+          <a href="https://www.facebook.com/Project.Rustbound" target="_blank" class="Footer-nav-item">Facebook</a>
+          <a href="https://www.threads.com/@project.rustbound" class="Footer-nav-item">Threads</a>
+          <a href="https://www.youtube.com/@Unmasked-Games" target="_blank" class="Footer-nav-item">YouTube</a>
+          <a href="https://www.tiktok.com/@project.rustbound" class="Footer-nav-item">TikTok</a>
+          <!-- Puedes añadir más redes si quieres -->
+        </div>
+        <div class="footer-bottom">
+          BIONICLE and the BIONICLE logo are trademarks of The LEGO Group, which does not sponsor this website. This is an unofficial, non-profit webpage.<br>
+          We do not own any rights to official LEGO design elements, characters, names or story.<br>
+          The BIONICLE Story is produced under Fair Use Law and good faith practices per The LEGO Group's Trademark and Copyright Policies.<br>
+          All other trademarks, registered trademarks and their logos belong to their respective holders.<br>
+          All rights reserved
+        </div>
+</section>
+
+
+
+
+  <script src="https://unpkg.com/@lottiefiles/lottie-interactivity@latest/dist/lottie-interactivity.min.js"></script>
+  <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.7.6/lottie.min.js"></script>
+ 
+<script src="./Banner.js" type="module"></script>
+<script src="./Sand.js" type="module"></script>
+  <script src="./Carrusel.js" type="module"></script>
+<script src="./Herogrid.js" type="module"></script>
+<script src="./universe.js" type="module"></script>
+
+</body>
+</html>

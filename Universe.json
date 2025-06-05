@@ -1,0 +1,81 @@
+[
+  {
+    "title": "MATA NUI",
+    "description": "Mata Nui was once an island paradise. The island featured tall icy mountains, deep ocean bays, wide desert expanses, caves deep underground, lush green jungles, even a volcano. For a thousand years, Matoran lived in six villages, each ruled by a wise Turaga, bothered only by the occasional rahi beast.",
+    "mainImage": "./media/mata nui.png",
+    "iconImage": "./media/08-Turaga-Cliff-Faber-Files.png",
+    "info": [
+      "Island",
+      " Floating on the endless Ocean",
+      "  Jungle, glacier, desert, volcano, tunnels, bay"
+    ],
+    "buttonText": "Explore",
+    "buttonIcon": "./media/arrow 2_Mesa de trabajo 1.png"
+  },
+  {
+    "title": "METRU NUI",
+    "description": "The City of Legends, Metru Nui was a great metropolis. Resting in a sea of liquid protodermis, the city and was widely known for its quality of craftsmanship and high standards.",
+    "mainImage": "./media/metru nui.jpg",
+    "iconImage": "./media/118-Christian-Faber-files_Metru-Nui-3D-concept2.jpg",
+    "info": [
+      "City",
+      "Floating in a sea of Protodermis below Mata Nui",
+      "Six districts and a Coliseum"
+    ],
+    "buttonText": "Explore",
+    "buttonIcon": "./media/arrow 2_Mesa de trabajo 1.png"
+  },
+  {
+    "title": "VOYA NUI",
+    "description": "The unforgiving island of Voya Nui was a wasteland. This island of doom, as its Matoran inhabitants named it, held secrets that forced the island to become the center of battles between powerful foes.",
+    "mainImage": "./media/Voya-Nui-Good.jpg",
+    "iconImage": "./media/084-Christian-Faber-Files_Voya-Nui-sub-surface.jpg",
+    "info": [
+      "Island",
+      "Floating in the Endless Ocean above Mahri Nui and The Pit",
+      "Rugged and inhospitable; also known as the Daggers of Death"
+    ],
+    "buttonText": "Explore",
+    "buttonIcon": "./media/arrow 2_Mesa de trabajo 1.png"
+  },
+  {
+    "title": "MAHRI NUI",
+    "description": "This sunken village of Mahri Nui was surrounded by air bubbles, which allowed its Matoran villagers to survive. Once a part of the floating island of Voya Nui, this submerged village remained linked to Voya Nui through a stone cord.",
+    "mainImage": "./media/mahri nui.jpg",
+    "iconImage": "./media/091 - Christian Faber Files_Mahri Nui concept.jpg",
+    "info": [
+      "Underwater Village",
+      "Resting on the lip of The Pit, below Voya Nui",
+      "Surrounded by air bubbles and connected by a stone cord to Voya Nui"
+    ],
+    "buttonText": "Explore",
+    "buttonIcon": "./media/arrow 2_Mesa de trabajo 1.png"
+  },
+  {
+    "title": "KARDA NUI",
+    "description": "The cave of Karda Nui, “the world that feeds the world,”. The bottom of the cave is submerged and enormous, strangely shaped stalactites have dropped from the ceiling. The water of Karda Nui is a mixture of liquid protodermis and saltwater.",
+    "mainImage": "./media/karda nui.jpg",
+    "iconImage": "./media/codrex.png",
+    "info": [
+      "Cave",
+      "Beneath where Voya Nui once floated",
+      "Massive stalactites that have fallen and now host Matoran villages; featureless mist obscuring the bottom"
+    ],
+    "buttonText": "Explore",
+    "buttonIcon": "./media/arrow 2_Mesa de trabajo 1.png"
+  },
+  {
+    "title": "BARA MAGNA",
+    "description": "Once, Bara Magna was part of a larger world, until a terrible disaster split the planet into three segments. Bara Magna is the largest of these, with the other two now acting as moons to it. While many of the residents of Bara Magna are native to the region, others were trapped there when their homelands broke away.",
+    "mainImage": "./media/Bara-Magna-Map-No-Text-Faber.png",
+    "iconImage": "./media/CLICK-MATA-NUI.png",
+    "info": [
+      "World",
+      "An undisclosed distance from Mata Nui’s ocean world",
+      "Desert, liquid sand desert, and more desert"
+    ],
+    "buttonText": "Explore",
+    "buttonIcon": "./media/arrow 2_Mesa de trabajo 1.png"
+  }
+  
+]
