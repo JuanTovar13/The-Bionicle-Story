@@ -4,16 +4,11 @@
       mode: 'chain',
       actions: [
         {
-          visibility: [0, 0.7],
+          visibility: [0, 1],
           state: "autoplay",
-          frames: [0, 130],
+          frames: [0, 60],
           
         },
-        {
-          visibility: [0.7, 1.0],
-          state: 'autoplay',
-          frames: [130, 50],
-          transition: "onComplete"
-      }
+        
       ]
     });
