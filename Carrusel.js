@@ -63,8 +63,11 @@ class HexCarousel extends HTMLElement {
            z-index: 1; /* Asegura que sobresalga */
         overflow: visible;
            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.5), inset 30px -125px 80px rgba(0, 0, 0, 0.25);
+           cursor: pointer;
+  outline: none;
         }
 
+        
         .hex-card.active {
           transform: scale(1);
           opacity: 1;
@@ -92,8 +95,9 @@ class HexCarousel extends HTMLElement {
         font-weight: light;
           font-size: 24px;
           opacity: 0.8;
+          
         }
-
+        
         .nav-btns {
           text-align: center;
           margin-top: 20px;
